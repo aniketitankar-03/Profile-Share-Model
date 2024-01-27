@@ -255,6 +255,16 @@ body {
 }
 
 @media (max-width: 400px) {
+  .circle2{
+    height: 13em;
+    width: 13em;
+  }
+  @keyframes circle2Animate {
+    50% {
+      bottom: -2%;
+      right: 5%;
+    }
+  }
   .wrapper {
     display: flex;
     justify-content: center;
@@ -268,10 +278,10 @@ body {
     margin: 0 12px;
     padding: 0 10px;
   }
-  .card-wrapper div img {
+  /* .card-wrapper div img {
     width: 120px;
     height: 120px;
-  }
+  } */
   .user-name h2 {
     font-size: 1.3rem;
   }
